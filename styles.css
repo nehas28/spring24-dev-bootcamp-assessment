@@ -1,3 +1,69 @@
-/* Your Styles Here */
-body{
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
 }
+
+.pics {
+    border-radius: 30%;
+    display: block;
+    text-align: left;
+    margin-right: 20px;
+    max-width: 150px;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+
+}
+
+#card-container {
+    margin-top: 40px;
+    box-shadow: 5px 5px 15px rgb(14, 2, 87);
+    position: relative;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: rgb(11, 46, 102);
+    padding: 50px;
+    width: 600px; 
+    height: 300px;
+}
+
+#circuit-pattern {
+    margin-left: 60px;
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.line {
+    position: absolute;
+    background-color: white;
+}
+
+.line-vertical {
+    width: 5px; 
+    height: 300px; 
+    top: -100px;
+    left: 30px;
+}
+
+#personal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Console', Monaco, monospace; 
+    width: 400px;
+}
+
+#intro {
+    margin: 0;
+    font-size: 0.75em;
+    font-weight: 250;
+    line-height: 1.4;
+}
+
